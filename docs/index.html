@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stay Active — Keep your screen awake &amp; your status active</title>
+<meta name="description" content="Keep your Windows PC awake and your status active. No screen dimming, no sleep, no away status. Free download, Pro $4.99." />
+<meta property="og:title" content="Stay Active — Keep your screen awake" />
+<meta property="og:description" content="No screen dimming, no sleep, no away status. Free on Windows." />
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { overflow-x: hidden; }
+  body {
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    background: #0b1020; color: #e6e9f0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+  a { color: inherit; }
+
+  /* Hero */
+  .hero { text-align: center; padding: 64px 0 40px;
+    background: radial-gradient(700px 400px at 50% -10%, #16203f 0%, transparent 70%); }
+  .icon { width: 88px; height: 88px; margin: 0 auto 24px; display: block;
+    filter: drop-shadow(0 0 30px rgba(59,130,246,.5)); }
+  h1 { font-size: 42px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; }
+  .grad { background: linear-gradient(90deg,#60a5fa,#a78bfa);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .sub { font-size: 18px; color: #aab4d4; margin: 16px auto 0; max-width: 440px; }
+  .meta { font-size: 13px; color: #6b7798; margin-top: 14px; }
+
+  .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+    font-size: 17px; font-weight: 700; padding: 15px 28px; border-radius: 14px;
+    transition: transform .08s, filter .2s; }
+  .btn:active { transform: scale(.97); }
+  .btn-primary { background: #3b82f6; color: #fff; }
+  .btn-primary:hover { filter: brightness(1.1); }
+  .btn-pro { background: linear-gradient(90deg,#f59e0b,#fbbf24); color: #4a2c00; }
+  .btn-pro:hover { filter: brightness(1.05); }
+
+  /* Video slot */
+  .video { margin: 40px 0 8px; aspect-ratio: 16/9; border-radius: 18px;
+    background: #131a30; border: 1px solid #232c48; display: flex;
+    align-items: center; justify-content: center; color: #6b7798; font-size: 14px; text-align: center; }
+  /* แทนกล่องนี้ด้วย <iframe> ของ YouTube/TikTok ทีหลังได้ */
+
+  section { padding: 40px 0; border-top: 1px solid #1a2138; }
+  h2 { font-size: 26px; font-weight: 700; margin-bottom: 16px; text-align: center; }
+  .lead { color: #aab4d4; text-align: center; max-width: 520px; margin: 0 auto; }
+
+  /* Pricing */
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 26px; }
+  .col { background: #131a30; border: 1px solid #232c48; border-radius: 18px; padding: 24px; }
+  .col.pro { border-color: #f59e0b; box-shadow: 0 0 40px rgba(245,158,11,.14); }
+  .col h3 { font-size: 22px; margin-bottom: 4px; }
+  .price { font-size: 15px; color: #8b95b5; margin-bottom: 16px; }
+  .price b { color: #fbbf24; font-size: 22px; }
+  .f { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; margin: 12px 0; color: #d7ddf0; }
+  .f.off { color: #6b7798; }
+  .ck { color: #57d98a; font-weight: 800; }
+  .no { color: #6b7798; }
+
+  /* Steps */
+  .steps { counter-reset: s; max-width: 460px; margin: 22px auto 0; }
+  .step { counter-increment: s; position: relative; padding: 12px 0 12px 48px; }
+  .step::before { content: counter(s); position: absolute; left: 0; top: 10px;
+    width: 32px; height: 32px; border-radius: 50%; background: #3b82f6; color: #fff;
+    font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
+  /* FAQ */
+  details { background: #131a30; border: 1px solid #232c48; border-radius: 12px;
+    padding: 14px 18px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { color: #aab4d4; margin-top: 10px; font-size: 15px; }
+
+  footer { text-align: center; padding: 40px 0 60px; color: #6b7798; font-size: 14px; }
+  .foot-cta { margin: 26px 0 8px; }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 34px; } .cols { grid-template-columns: 1fr; }
+    .btn { width: 100%; justify-content: center; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="hero">
+    <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/>
+      </linearGradient></defs>
+      <rect x="4" y="4" width="92" height="92" rx="24" fill="url(#g)"/>
+      <circle cx="50" cy="50" r="28" fill="none" stroke="#fff" stroke-width="9"/>
+      <circle cx="50" cy="50" r="12" fill="#fff"/>
+    </svg>
+    <h1>Stay <span class="grad">Active</span></h1>
+    <p class="sub">Keep your screen awake and your status active — automatically.</p>
+    <p class="meta">Windows · No install · No admin needed · Runs in your tray</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/einstom/stay-active/releases/latest/download/StayActive-Windows.zip">⬇️ Download Free</a>
+      <a class="btn btn-pro" href="https://bezway.lemonsqueezy.com/checkout/buy/1f662c77-8740-4af6-adc7-8420926def13">⭐ Get Pro — $4.99</a>
+    </div>
+  </div>
+
+  <!-- VIDEO (แทนด้วย iframe ทีหลัง) -->
+  <div class="video">▶ Add your TikTok / YouTube demo here</div>
+
+  <!-- WHAT -->
+  <section>
+    <h2>Never go idle again</h2>
+    <p class="lead">Stay Active stops your screen from dimming or sleeping and keeps your
+      status from flipping to “Away” — perfect for meetings, presentations, reading,
+      and long downloads. It works entirely on your PC. No admin rights.</p>
+  </section>
+
+  <!-- PRICING -->
+  <section>
+    <h2>Simple pricing</h2>
+    <div class="cols">
+      <div class="col">
+        <h3>Free</h3>
+        <div class="price">$0 forever</div>
+        <div class="f"><span class="ck">✓</span> Keep screen awake</div>
+        <div class="f"><span class="ck">✓</span> Prevent idle / away status</div>
+        <div class="f off"><span class="no">–</span> 60 min per session</div>
+        <div class="f off"><span class="no">–</span> No scheduling</div>
+      </div>
+      <div class="col pro">
+        <h3>Pro ⭐</h3>
+        <div class="price"><b>$4.99</b> one-time</div>
+        <div class="f"><span class="ck">✓</span> Everything in Free</div>
+        <div class="f"><span class="ck">✓</span> Unlimited runtime</div>
+        <div class="f"><span class="ck">✓</span> Auto work-hours schedule</div>
+        <div class="f"><span class="ck">✓</span> Auto-start + natural mode</div>
+      </div>
+    </div>
+    <div class="cta" style="margin-top:24px">
+      <a class="btn btn-pro" href="https://bezway.lemonsqueezy.com/checkout/buy/1f662c77-8740-4af6-adc7-8420926def13">Get Pro — $4.99</a>
+    </div>
+  </section>
+
+  <!-- HOW -->
+  <section>
+    <h2>Up and running in 30 seconds</h2>
+    <div class="steps">
+      <div class="step">Download and unzip, then double-click <b>StayActive.exe</b>.</div>
+      <div class="step">A blue icon appears in your system tray → right-click → <b>Start</b>.</div>
+      <div class="step">Pro: right-click → Open Dashboard → paste your license key → <b>Activate</b>.</div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>FAQ</h2>
+    <details><summary>Is it safe? Why does Windows show a warning?</summary>
+      <p>Yes. On first run Windows may show “Windows protected your PC” because the app
+      isn’t code-signed yet — click <b>More info → Run anyway</b>. It runs locally and
+      connects online only to verify your license.</p></details>
+    <details><summary>Do I need to install anything or have admin rights?</summary>
+      <p>No. It’s a single file — just run it. No installer, no admin rights.</p></details>
+    <details><summary>What’s the difference between Free and Pro?</summary>
+      <p>Free keeps your screen awake for 60 minutes per session. Pro removes the limit
+      and adds auto work-hours scheduling, start-on-boot, and natural randomized activity.</p></details>
+    <details><summary>Is Pro a subscription?</summary>
+      <p>No — Pro is a one-time $4.99 purchase. Pay once, use forever.</p></details>
+  </section>
+
+  <footer>
+    <div class="foot-cta">
+      <a class="btn btn-primary" href="https://github.com/einstom/stay-active/releases/latest/download/StayActive-Windows.zip">⬇️ Download Free for Windows</a>
+    </div>
+    <p>Questions? 📧 einstom@gmail.com</p>
+  </footer>
+
+</div>
+</body>
+</html>
