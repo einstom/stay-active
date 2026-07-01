@@ -1,3 +1,6 @@
+<!-- เทมเพลต README สำหรับ repo github.com/einstom/stay-active
+     แทน einstom ด้วย GitHub username จริง แล้ว copy ไปวางเป็น README.md ของ repo -->
+
 <h1 align="center">🖥️ Stay Active</h1>
 <p align="center">Keep your screen awake and your status active — automatically.</p>
 
@@ -7,7 +10,7 @@
   </a>
   &nbsp;·&nbsp;
   <a href="https://bezway.lemonsqueezy.com/checkout/buy/1f662c77-8740-4af6-adc7-8420926def13">
-    <b>⭐ Get Pro — $4.99</b>
+    <b>⭐ Get Pro — from $4.99/yr</b>
   </a>
 </p>
 
@@ -18,7 +21,7 @@ Stay Active keeps your PC from going idle — no screen dimming, no sleep, no "A
 One file, no installation, no admin rights. Runs quietly in your system tray.
 
 ## Free vs Pro
-| | Free | Pro — $4.99 (one-time) |
+| | Free | Pro — $4.99/yr or $14.99 lifetime |
 |---|:---:|:---:|
 | Keep screen awake | ✅ | ✅ |
 | Prevent idle / away status | ✅ | ✅ |
