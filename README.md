@@ -8,10 +8,12 @@
   <a href="https://github.com/einstom/stay-active/releases/latest/download/StayActive-Windows.zip">
     <b>⬇️ Download for Windows (Free)</b>
   </a>
+</p>
+<p align="center">
+  ⭐ <b>Go Pro:</b>
+  <a href="https://bezway.lemonsqueezy.com/checkout/buy/1f662c77-8740-4af6-adc7-8420926def13">$4.99 / year</a>
   &nbsp;·&nbsp;
-  <a href="https://bezway.lemonsqueezy.com/checkout/buy/1f662c77-8740-4af6-adc7-8420926def13">
-    <b>⭐ Get Pro — from $4.99/yr</b>
-  </a>
+  <a href="https://bezway.lemonsqueezy.com/checkout/buy/1cda2011-ba8a-450c-a464-fa483a492e1f">$14.99 lifetime</a>
 </p>
 
 ---
